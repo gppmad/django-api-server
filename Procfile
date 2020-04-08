@@ -1,0 +1,1 @@
+web: gunicorn mdx.api-server.wsgi --log-file -
