@@ -1,1 +1,1 @@
-web: gunicorn mdx.api-server.wsgi --log-file -
+web: gunicorn api_server.wsgi.application --log-file -
